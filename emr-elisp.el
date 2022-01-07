@@ -33,7 +33,7 @@
 (require 'emr)
 (require 'emr-lisp)
 (autoload 'define-compilation-mode "compile")
-(autoload 'paredit-splice-sexp-killing-backward "paredit")
+(autoload 'paredit-splice-sexp-killing-backward "ext:paredit")
 
 (defcustom emr-el-definition-macro-names
   '(defun defun* cl-defun defmacro defmacro* cl-defmacro defcustom
